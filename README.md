@@ -3,7 +3,6 @@
 ## Installer un terminal sur votre téléphone
 
 - Installer Termux (Android) disponible sur Google Play Store
-- Installer LibTerm (iOS) disponible sur l'App Store
 
 ## Commande à faire depuis Termux
 
@@ -28,7 +27,7 @@ cd tp_phrank
 python phrank.py test HP:0001562,HP:0000105,HP:0000113 > test.txt
 ```
 
-Regarder le resulat : 
+Regarder le resultat : 
 ```
 head test.txt
 ```
