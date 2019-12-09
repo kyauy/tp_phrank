@@ -8,14 +8,10 @@
 ## Commande à faire depuis Termux
 
 Installer python = le langage de programmation le plus répandu
+Installer git = permet de copier des programmes en ligne sur la plateforme de partage de code github
 ```
 pkg install python
-```
-
-Installer phrank (outil de priorisation par le phénotype) via pip (outil mettant à disposition les outils python disponible)
-
-```
-pip install phrank
+pkg install git
 ```
 
 Récupérer les datas =
@@ -24,9 +20,15 @@ Récupérer les datas =
 git clone https://github.com/kyauy/tp_phrank.git
 ```
 
-Lancer la ligne de commande =
+Lancer la ligne de commande :
+cd = change directory
+
 ```
-python phrank.py test HP:0001562,HP:0000105,HP:0000113
+cd tp_phrank
+python phrank.py test HP:0001562,HP:0000105,HP:0000113 > test.txt
 ```
 
-
+Regarder le resulat : 
+```
+head test.txt
+```
