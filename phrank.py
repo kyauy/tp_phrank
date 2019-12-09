@@ -26,8 +26,7 @@ with open('demo/data/ensembl_gene.tsv') as fh:
         hgnc_dict = {row[0]:row[1] for row in hgnc}
 
 
-id_name = sys.argv[1]
-hpo_list = sys.argv[2]
+hpo_list = sys.argv[1]
 
 patient_genes = set(ensembl)
 patient_phenotypes = hpo_list.split(",")

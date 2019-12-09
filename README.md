@@ -24,7 +24,7 @@ cd = change directory
 
 ```
 cd tp_phrank
-python phrank.py test HP:0001562,HP:0000105,HP:0000113 > test.txt
+python phrank.py HP:0001562,HP:0000105,HP:0000113 > test.txt
 ```
 
 Regarder le resultat : 
