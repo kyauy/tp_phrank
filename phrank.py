@@ -31,7 +31,6 @@ hpo_list = sys.argv[1]
 patient_genes = set(ensembl)
 patient_phenotypes = hpo_list.split(",")
 
-print(id_name)
 print(patient_phenotypes)
 
 gene_ranking = p_hpo.rank_genes(patient_genes, patient_phenotypes)
